@@ -19,7 +19,15 @@ html, body {
   margin: 0 auto;
   font-size: var(--normal);
   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #dddddd;
   max-width: 1280px;
+}
+
+.contenedor {
+  background-color: var(--white-color);
 }
 
 nav {
@@ -180,8 +188,13 @@ footer {
   margin: 0 auto;
 }
 
+.modulo_pago_images img {
+  width: 100%;
+}
+
 .data {
-  margin-top: var(--space);
+  margin-top: 5px;
+  margin-bottom: var(--space);
   width: 100%;
   height: 35px;
   border-radius: 2px;
